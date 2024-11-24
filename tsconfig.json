@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ES6",
+        "moduleResolution": "Bundler",
+        "noImplicitAny": false,
+        "outDir": "./dist/media/js/",
+        "removeComments": true,
+        "rootDir": "./src/ts/",
+        "strict": true,
+        "target": "ES6"
+    },
+    "include": [
+        "./src/ts/**/*.ts"
+    ],
+}

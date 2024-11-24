@@ -1,0 +1,10 @@
+/dist/media/js/*
+!/dist/media/js/.gitkeep
+/node_modules
+.env
+.env.*
+!.env.example
+npm-debug.log
+/.fleet
+/.idea
+/.vscode

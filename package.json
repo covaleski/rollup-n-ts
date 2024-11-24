@@ -1,0 +1,31 @@
+{
+  "name": "@laucov/rollup-n-ts",
+  "version": "1.0.0",
+  "description": "Template Rollup + TypeScript project",
+  "main": "rollup.config.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup --config --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/covaleski/rollup-n-ts.git"
+  },
+  "author": "Rafael Covaleski <rafael.covaleski@laucov.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/covaleski/rollup-n-ts/issues"
+  },
+  "homepage": "https://github.com/covaleski/rollup-n-ts#readme",
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-typescript": "^7.24.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "tslib": "^2.7.0"
+  }
+}
+
