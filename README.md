@@ -1,2 +1,3 @@
-# rollup-n-ts
+# Rollup n' TS
+
 Template Rollup + TypeScript project.
