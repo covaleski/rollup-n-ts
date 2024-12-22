@@ -5,6 +5,7 @@
   "main": "rollup.config.js",
   "type": "module",
   "scripts": {
+    "build": "rollup --config",
     "dev": "rollup --config --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,4 +29,3 @@
     "tslib": "^2.7.0"
   }
 }
-
