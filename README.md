@@ -1,3 +1,3 @@
-# Rollup n' TS
+# Rollup + TypeScript + Sass
 
-Template Rollup + TypeScript + SCSS project.
+Template Rollup project with TypeScript and Sass.
