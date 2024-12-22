@@ -27,5 +27,8 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
     "tslib": "^2.7.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-sass": "^1.14.0"
   }
 }

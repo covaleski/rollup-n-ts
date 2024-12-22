@@ -5,6 +5,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import { globSync } from 'glob';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript';
+import sass from 'rollup-plugin-sass';
 
 export default [
     // TypeScript
@@ -25,6 +26,11 @@ export default [
                 presets: ['@babel/preset-typescript'],
             }),
             nodeResolve(),
+            sass({
+                api: 'modern',
+                include: ['src/scss/main.scss'],
+                output: 'dist/media/css/main.css',
+            }),
         ],
     },
 ];

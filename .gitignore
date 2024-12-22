@@ -1,3 +1,5 @@
+/dist/media/css/*
+!/dist/media/css/.gitkeep
 /dist/media/js/*
 !/dist/media/js/.gitkeep
 /node_modules
